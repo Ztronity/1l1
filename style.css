@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+}
+
+body {
+    /*background-color: #d5a4fb;*/
+    background-image: linear-gradient(to bottom right, #220201, rgb(70, 70, 90));
+}
+
+.app-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+/* fundo do player */
+
+.player {
+    background-color: #101010;
+    padding: 35px 30px;
+    width: 420px;
+    max-width: 100%;
+    border-radius: 16px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* capas */
+
+.song-img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    background-color: #FE4880;
+    border-radius: 2%;
+    box-shadow: 0px 2px 20px rgba(243, 243, 235, 0.6);
+
+    margin-bottom: 50px;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.song-img:after {
+    content: '';
+    padding-top: 100%;
+    display: block;
+}
+
+/* contorno nenon da imagem
+.song-img:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border: 2px solid #E300c4;
+    border-radius: 2%;
+}*/
+
+.song-details {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.song-details h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.song-details h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #888;
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.player-controls .play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #f4f84d;
+    color: #101010;
+    margin: 0 30px;
+
+    border: none;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+
+    /*box-shadow: 0px 6px 12px rgba(248, 252, 33, 0.6);*/
+    transition: 0.4s;
+}
+
+.player-controls .skip-btn {
+    background: none;
+    border: none;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+
+    color: #CCC;
+}
+
+.player-controls .play:hover {
+    box-shadow: 0px 2px 20px rgba(243, 243, 235, 0.6);
+}
+
+.next-up p {
+    color: #888;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.next-up p span {
+    font-weight: 400;
+    font-style: italic;
+}
+
+@media (max-width: 414px) {
+    .player {
+        min-height: 100vh;
+        border-radius: 0px;
+        padding: 75px 30px;
+    }
+}
