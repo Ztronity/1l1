@@ -20,9 +20,9 @@ let next_song_index;
 
 let songs = [
     {
-        title: 'KLOUD - FOLLOW ME',
-        artist: 'KLOUD',
-        song_path:'music/kloud.mp3',
+        title: 'KUTE - AVOID ME',
+        artist: 'KUTE',
+        song_path:'music/avoid.mp3',
         img_path: './assets/images/k.jpg'
     },
     {
