@@ -33,9 +33,9 @@ let songs = [
     },
     {
         title: 'You Spin Me Round ',
-        artist: 'Mixkit 03',
+        artist: 'Standy & Marc Korn',
         song_path: 'music/Round.mp3',
-        img_path: './assets/images/m3.png'
+        img_path: './assets/images/r.jpg'
     }
 
 ]
