@@ -36,7 +36,19 @@ let songs = [
         artist: 'Standy & Marc Korn',
         song_path: 'music/Round.mp3',
         img_path: './assets/images/r.jpg'
-    }
+    },
+    {
+        title: 'Sahara',
+        artist: 'Hensonn',
+        song_path: 'music/sahara.mp3',
+        img_path: './assets/images/s.jpg'
+    },
+    {
+        title: 'Lithium (Original Mix)',
+        artist: 'Odd Mob',
+        song_path: 'music/lithium.mp3',
+        img_path: './assets/images/l.jpg'
+    },
 
 ]
 
