@@ -19,35 +19,113 @@ let current_song_index;
 let next_song_index;
 
 let songs = [
-    {
-        title: 'KUTE - AVOID ME',
-        artist: 'KUTE',
-        song_path:'music/avoid.mp3',
-        img_path: './assets/images/k.jpg'
+      {
+        title: 'NEPOEG x Zendec - Baofeng (Official Audio)',
+        artist: 'NEPOEG & Zendec',
+        song_path:'music/baofeng.mp3',
+        img_path: './assets/images/101.gif'
     },
     {
-        title: 'Losing It (Odd Mob Remix)',
-        artist: 'Fisher',
-        song_path: 'music/losing.m4a',
-        img_path: './assets/images/it.jpg'
+        title: 'NEPOEG x Zendec - Vox Club (Original Mix)',
+        artist: 'NEPOEG & Zendec',
+        song_path: 'music/voxclub.mp3',
+        img_path: './assets/images/101.gif'
     },
     {
-        title: 'You Spin Me Round ',
-        artist: 'Standy & Marc Korn',
-        song_path: 'music/Round.mp3',
-        img_path: './assets/images/r.jpg'
+        title: 'Zendec - Cute Cat (VIP)',
+        artist: 'Zendec',
+        song_path: 'music/cat.mp3',
+        img_path: './assets/images/101.gif'
     },
     {
-        title: 'Sahara',
-        artist: 'Hensonn',
-        song_path: 'music/sahara.mp3',
-        img_path: './assets/images/s.jpg'
+        title: 'Zendec - Ellegance (Official Audio)',
+        artist: 'Zendec',
+        song_path: 'music/ellegance.mp3',
+        img_path: './assets/images/101.gif'
     },
     {
-        title: 'Lithium (Original Mix)',
-        artist: 'Odd Mob',
-        song_path: 'music/lithium.mp3',
-        img_path: './assets/images/l.jpg'
+        title: 'Zendec - Sequence (Original Mix)',
+        artist: 'Zendec',
+        song_path: 'music/sequence.mp3',
+        img_path: './assets/images/101.gif'
+    },
+    {
+        title: 'Zendec - Emytec (Original Mix)',
+        artist: 'Zendec',
+        song_path: 'music/emytec.mp3',
+        img_path: './assets/images/101.gif'
+    },
+    {
+        title: 'Zendec - Fight (Original Mix)',
+        artist: 'Zendec',
+        song_path: 'music/fight.mp3',
+        img_path: './assets/images/101.gif'
+    },
+    {
+        title: 'Zendec - Tempmal (Official Audio)',
+        artist: 'Zendec',
+        song_path: 'music/tempmal.mp3',
+        img_path: './assets/images/101.gif'
+    },
+    {
+        title: 'Zendec - Sun Goes Down (VIP)',
+        artist: 'Zendec',
+        song_path: 'music/down.mp3',
+        img_path: './assets/images/101.gif'
+    },
+    {
+        title: 'Zendec - Zenffect (Official Audio)',
+        artist: 'Zendec',
+        song_path: 'music/zenffect.mp3',
+        img_path: './assets/images/101.gif'
+    },
+    {
+        title: 'Zendec - Lynec (Official Audio)',
+        artist: 'Zendec',
+        song_path: 'music/lynec.mp3',
+        img_path: './assets/images/101.gif'
+    },
+    {
+        title: 'Musata - Real Bass (Zendec Remix)',
+        artist: 'Zendec',
+        song_path: 'music/musata.mp3',
+        img_path: './assets/images/101.gif'
+    },
+    {
+        title: 'Zendec - Classic (Official Audio)',
+        artist: 'Zendec',
+        song_path: 'music/classic.mp3',
+        img_path: './assets/images/101.gif'
+    },
+    {
+        title: 'BossFight - Work (Zendec Remix)',
+        artist: 'Zendec',
+        song_path: 'music/work.mp3',
+        img_path: './assets/images/101.gif'
+    },
+    {
+        title: 'RL Grime - I Wanna Know (NEPOEG Remix)',
+        artist: 'NEPOEG',
+        song_path: 'music/wanna.mp3',
+        img_path: './assets/images/101.gif'
+    },
+    {
+        title: 'Fluencee - Foxgloves (NEPOEG Remix)',
+        artist: 'NEPOEG',
+        song_path: 'music/fluencee.mp3',
+        img_path: './assets/images/101.gif'
+    },
+    {
+        title: 'NEPOEG - Saturn (ft.Zendec Tyrone)',
+        artist: 'NEPOEG & Zendec',
+        song_path: 'music/saturn.mp3',
+        img_path: './assets/images/101.gif'
+    },
+    {
+        title: 'Lui Hill - 5000 Miles (Zendec Edit)',
+        artist: 'Zendec',
+        song_path: 'music/Miles.ogg',
+        img_path: './assets/images/101.gif'
     },
 
 ]
